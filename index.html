@@ -30,6 +30,26 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '787724014906166',
+        xfbml      : true,
+        version    : 'v3.2'
+      });
+      FB.AppEvents.logPageView();
+    };
+  
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2&appId=787724014906166&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
   <!-- =======================================================
     Theme Name: eStartup
     Theme URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
@@ -40,7 +60,9 @@
 
 <body style="overflow-x: hidden!important">
 
+
   <header id="header" class="header header-hide">
+
     <div class="container">
 
       <div id="logo" class="pull-left">
@@ -280,6 +302,16 @@
         <div><img src="img/screen/7.jpg" alt="img"></div>
         <div><img src="img/screen/8.jpg" alt="img"></div>
         <div><img src="img/screen/9.jpg" alt="img"></div>
+        <div><img src="img/screen/10.jpg" alt="img"></div>
+        <div><img src="img/screen/11.jpg" alt="img"></div>
+        <div><img src="img/screen/12.jpg" alt="img"></div>
+        <div><img src="img/screen/13.jpg" alt="img"></div>
+        <div><img src="img/screen/14.jpg" alt="img"></div>
+        <div><img src="img/screen/15.jpg" alt="img"></div>
+        <div><img src="img/screen/16.jpg" alt="img"></div>
+        <div><img src="img/screen/17.jpg" alt="img"></div>
+        <div><img src="img/screen/18.jpg" alt="img"></div>
+        <div><img src="img/screen/19.jpg" alt="img"></div>
 
       </div>
     </div>
@@ -614,21 +646,31 @@
   <!--==========================
     Blog Section
   ============================-->
-  <!-- <section id="blog" class="padd-section wow fadeInUp">
+  <section id="blog" class="padd-section wow fadeInUp">
 
     <div class="container">
       <div class="section-title text-center">
 
-        <h2>Latest posts</h2>
-        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        <h2>Events</h2>
+        <p class="separator">Some of upcoming and past events</p>
 
       </div>
     </div>
 
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
 
-        <div class="col-md-6 col-lg-4">
+        <!--<div class="fb-page" data-href="https://www.facebook.com/groups/1739727726265327/"-->
+             <!--data-tabs="events"-->
+             <!--data-small-header="false"-->
+             <!--data-adapt-container-width="true"-->
+             <!--data-hide-cover="false"-->
+             <!--data-width="900"-->
+             <!--data-show-facepile="true"></div>-->
+
+             <div class="fb-page" data-href="https://www.facebook.com/groups/1739727726265327/" data-tabs="events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+
+        <!-- <div class="col-md-6 col-lg-4">
           <div class="block-blog text-left">
             <a href="#"><img src="img/blog/blog-image-1.jpg" alt="img"></a>
             <div class="content-blog">
@@ -659,11 +701,11 @@
               <a class="pull-right readmore" href="#">read more</a>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!--==========================
     Newsletter Section
@@ -718,17 +760,38 @@
 
     <div class="container">
       <div class="row justify-content-center">
+        <div class="fb-group" 
+        data-href="https://www.facebook.com/groups/1739727726265327/" 
+        data-width="900" 
+        data-show-social-context="true" 
+        data-show-metadata="true">
+      </div>
+        <!-- <div class="fb-group"
+              data-href="https://www.facebook.com/groups/1739727726265327/"
+              data-width="900"
+              data-show-social-context="true"
+              data-show-metadata="false">
+
+        </div> -->
+      </div>
+
+      <div class="row justify-content-center">
+
+
 
         <div class="col-lg-3 col-md-4">
 
-          <div class="social-links" style="text-align: center;">
-            <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
-            <a href="https://www.facebook.com/groups/1739727726265327/" class="facebook"><i class="fa fa-facebook"></i></a>
-            <!-- <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> -->
-          </div>
 
+
+          <!--<div class="social-links" style="text-align: center;">-->
+            <!--&lt;!&ndash; <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> &ndash;&gt;-->
+            <!--<a href="https://www.facebook.com/groups/1739727726265327/" class="facebook"><i class="fa fa-facebook"></i></a>-->
+            <!--&lt;!&ndash; <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>-->
+            <!--<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>-->
+            <!--<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> &ndash;&gt;-->
+          <!--</div>-->
+
+          <br />
           <br />
 
           <div class="info">
