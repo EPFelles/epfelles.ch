@@ -108,7 +108,7 @@ span {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #bc0a4b;
+  background: #a40000;
   line-height: 1;
   color: #fff;
   padding: 7px 12px 13px 12px;
@@ -126,7 +126,7 @@ span {
 }
 
 .back-to-top:focus {
-  background: #bc0a4b;
+  background: #a40000;
   color: #fff;
   outline: none;
 }
@@ -171,7 +171,7 @@ span {
 }
 
 #header #logo h1 a span {
-  color: #bc0a4b;
+  color: #a40000;
 }
 
 #header #logo img {
@@ -221,7 +221,7 @@ span {
   font-weight: 700;
   line-height: 56px;
   font-family: "Philosopher", sans-serif;
-  color: #bc0a4b;
+  color: #a40000;
 }
 
 @media (max-width: 768px) {
@@ -263,14 +263,14 @@ span {
   border-radius: 50px;
   transition: 0.5s;
   margin-bottom: 30px;
-  border: 2px solid #bc0a4b;
+  border: 2px solid #a40000;
   background: #fff;
-  color: #bc0a4b;
+  color: #a40000;
   text-decoration: none;
 }
 
 #hero .btn-get-started:hover {
-  background: #bc0a4b;
+  background: #a40000;
   color: #fff;
 }
 
@@ -291,7 +291,7 @@ span {
 }
 
 #hero .btns a:hover {
-  color: #bc0a4b;
+  color: #a40000;
 }
 
 /*--------------------------------------------------------------
@@ -381,7 +381,7 @@ span {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #bc0a4b;
+  color: #a40000;
 }
 
 .nav-menu > li {
@@ -409,7 +409,7 @@ span {
 }
 
 .nav-menu ul li:hover > a {
-  color: #bc0a4b;
+  color: #a40000;
 }
 
 .nav-menu ul ul {
@@ -498,11 +498,11 @@ span {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #bc0a4b;
+  color: #a40000;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #bc0a4b;
+  color: #a40000;
 }
 
 #mobile-body-overly {
@@ -619,7 +619,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #get-started .feature-block a:hover {
-  color: #bc0a4b;
+  color: #a40000;
 }
 
 /* About Us Section
@@ -710,7 +710,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #bc0a4b;
+  background: #a40000;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -735,7 +735,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #video .overlay .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#bc0a4b 50%, rgba(113, 197, 93, 0.15) 52%);
+  background: radial-gradient(#a40000 50%, rgba(113, 197, 93, 0.15) 52%);
   border-radius: 50%;
   display: block;
   margin: 153px auto 0;
@@ -783,7 +783,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #video .overlay .play-btn:hover::after {
-  border-left: 15px solid #bc0a4b;
+  border-left: 15px solid #a40000;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
@@ -898,7 +898,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #team .team-block .team-content ul li a .fa:hover {
-  color: #bc0a4b;
+  color: #a40000;
 }
 
 #team .team-block .team-content ul > span {
@@ -923,7 +923,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #testimonials .testimonials-content::before {
-  color: #bc0a4b;
+  color: #a40000;
   content: "";
   display: inline-block;
   font: 70px/1 FontAwesome;
@@ -967,7 +967,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #testimonials .btm-btm .active {
-  background: #bc0a4b;
+  background: #a40000;
 }
 
 .carousel-indicators {
@@ -1039,7 +1039,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #pricing .block-pricing .table .table_btn a {
-  background: #bc0a4b;
+  background: #a40000;
   color: #fff;
   margin: 0;
   display: inline-block;
@@ -1090,7 +1090,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #blog .block-blog .content-blog h4 a:hover {
-  color: #bc0a4b;
+  color: #a40000;
 }
 
 #blog .block-blog .content-blog > span {
@@ -1109,7 +1109,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #blog .block-blog .content-blog a.readmore:hover {
-  color: #bc0a4b;
+  color: #a40000;
 }
 
 /* Team Photo section */
@@ -1158,13 +1158,13 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #newsletter .form-control:focus {
-  border-color: #bc0a4b;
+  border-color: #a40000;
   box-shadow: none;
   outline: 0 none;
 }
 
 #newsletter .btn {
-  background: #bc0a4b;
+  background: #a40000;
   border: 0;
   border-radius: 0;
   height: 50px;
@@ -1193,7 +1193,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #newsletter ul li {
-  background: #bc0a4b;
+  background: #a40000;
   border-radius: 50px;
   float: left;
   height: 35px;
@@ -1224,7 +1224,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #contact .info i {
   font-size: 32px;
-  color: #bc0a4b;
+  color: #a40000;
   float: left;
 }
 
@@ -1246,7 +1246,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #bc0a4b;
+  background: #a40000;
   color: #fff;
   line-height: 1;
   padding: 6px 0 8px 0;
@@ -1263,8 +1263,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .form #sendmessage {
-  color: #bc0a4b;
-  border: 1px solid #bc0a4b;
+  color: #a40000;
+  border: 1px solid #a40000;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1303,7 +1303,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .form button[type="submit"] {
-  background: #bc0a4b;
+  background: #a40000;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1372,5 +1372,5 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .footer .copyrights p a, .footer .copyrights .credits a {
   letter-spacing: 0;
-  color: #bc0a4b;
+  color: #a40000;
 }
