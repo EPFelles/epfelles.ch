@@ -934,7 +934,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #testimonials .top-top > h2 {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto";
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -989,6 +989,13 @@ body.mobile-nav-active #mobile-nav-toggle i {
 .carousel-indicators li {
   margin: 0;
 }
+
+
+/* Events Section */
+#events .btn {
+  background: #7c0932;
+}
+
 
 /* Pricing Table Section
 --------------------------------*/
