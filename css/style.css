@@ -108,7 +108,7 @@ span {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #7c0932;
+  background: #be4b4b;
   line-height: 1;
   color: #fff;
   padding: 7px 12px 13px 12px;
@@ -126,13 +126,13 @@ span {
 }
 
 .back-to-top:focus {
-  background: #7c0932;
+  background: #be4b4b;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #7c0932;
+  background: #be4b4b;
   color: #fff;
 }
 
@@ -171,7 +171,7 @@ span {
 }
 
 #header #logo h1 a span {
-  color: #7c0932;
+  color: #be4b4b;
 }
 
 #header #logo img {
@@ -221,7 +221,7 @@ span {
   font-weight: 700;
   line-height: 56px;
   font-family: "Philosopher", sans-serif;
-  color: #7c0932;
+  color: #be4b4b;
 }
 
 @media (max-width: 768px) {
@@ -263,14 +263,14 @@ span {
   border-radius: 50px;
   transition: 0.5s;
   margin-bottom: 30px;
-  border: 2px solid #7c0932;
+  border: 2px solid #be4b4b;
   background: #fff;
-  color: #7c0932;
+  color: #be4b4b;
   text-decoration: none;
 }
 
 #hero .btn-get-started:hover {
-  background: #7c0932;
+  background: #be4b4b;
   color: #fff;
 }
 
@@ -291,7 +291,7 @@ span {
 }
 
 #hero .btns a:hover {
-  color: #7c0932;
+  color: #be4b4b;
 }
 
 /*--------------------------------------------------------------
@@ -381,7 +381,7 @@ span {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #7c0932;
+  color: #be4b4b;
 }
 
 .nav-menu > li {
@@ -409,7 +409,7 @@ span {
 }
 
 .nav-menu ul li:hover > a {
-  color: #7c0932;
+  color: #be4b4b;
 }
 
 .nav-menu ul ul {
@@ -498,11 +498,11 @@ span {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #7c0932;
+  color: #be4b4b;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #7c0932;
+  color: #be4b4b;
 }
 
 #mobile-body-overly {
@@ -619,7 +619,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #get-started .feature-block a:hover {
-  color: #7c0932;
+  color: #be4b4b;
 }
 
 /* About Us Section
@@ -710,7 +710,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #7c0932;
+  background: #be4b4b;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -735,7 +735,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #video .overlay .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#7c0932 50%, rgba(113, 197, 93, 0.15) 52%);
+  background: radial-gradient(#be4b4b 50%, rgba(113, 197, 93, 0.15) 52%);
   border-radius: 50%;
   display: block;
   margin: 153px auto 0;
@@ -783,7 +783,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #video .overlay .play-btn:hover::after {
-  border-left: 15px solid #7c0932;
+  border-left: 15px solid #be4b4b;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
@@ -898,7 +898,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #team .team-block .team-content ul li a .fa:hover {
-  color: #7c0932;
+  color: #be4b4b;
 }
 
 #team .team-block .team-content ul > span {
@@ -923,7 +923,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #testimonials .testimonials-content::before {
-  color: #7c0932;
+  color: #be4b4b;
   content: "";
   display: inline-block;
   font: 70px/1 FontAwesome;
@@ -967,7 +967,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #testimonials .btm-btm .active {
-  background: #7c0932;
+  background: #be4b4b;
 }
 
 .carousel-indicators {
@@ -993,7 +993,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 /* Events Section */
 #events .btn {
-  background: #7c0932;
+  background: #be4b4b;
 }
 
 
@@ -1047,14 +1047,14 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #pricing .block-pricing .table .table_btn a {
-  background: #7c0932;
+  background: #be4b4b;
   color: #fff;
   margin: 0;
   display: inline-block;
 }
 
 #pricing .block-pricing .table .table_btn a:hover {
-  background: #7c0932;
+  background: #be4b4b;
 }
 
 #pricing .block-pricing .table .table_btn a .fa {
@@ -1098,7 +1098,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #blog .block-blog .content-blog h4 a:hover {
-  color: #7c0932;
+  color: #be4b4b;
 }
 
 #blog .block-blog .content-blog > span {
@@ -1117,7 +1117,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #blog .block-blog .content-blog a.readmore:hover {
-  color: #7c0932;
+  color: #be4b4b;
 }
 
 /* Team Photo section */
@@ -1166,13 +1166,13 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #newsletter .form-control:focus {
-  border-color: #7c0932;
+  border-color: #be4b4b;
   box-shadow: none;
   outline: 0 none;
 }
 
 #newsletter .btn {
-  background: #7c0932;
+  background: #be4b4b;
   border: 0;
   border-radius: 0;
   height: 50px;
@@ -1187,7 +1187,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #newsletter .btn:hover {
-  background: #7c0932;
+  background: #be4b4b;
 }
 
 #newsletter .btn .fa {
@@ -1201,7 +1201,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #newsletter ul li {
-  background: #7c0932;
+  background: #be4b4b;
   border-radius: 50px;
   float: left;
   height: 35px;
@@ -1213,7 +1213,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #newsletter ul li:hover {
-  background: #7c0932;
+  background: #be4b4b;
 }
 
 #newsletter ul li .fa {
@@ -1232,7 +1232,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #contact .info i {
   font-size: 32px;
-  color: #7c0932;
+  color: #be4b4b;
   float: left;
 }
 
@@ -1254,7 +1254,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #7c0932;
+  background: #be4b4b;
   color: #fff;
   line-height: 1;
   padding: 6px 0 8px 0;
@@ -1266,13 +1266,13 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .social-links a:hover {
-  background: #7c0932;
+  background: #be4b4b;
   color: #fff;
 }
 
 #contact .form #sendmessage {
-  color: #7c0932;
-  border: 1px solid #7c0932;
+  color: #be4b4b;
+  border: 1px solid #be4b4b;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1311,7 +1311,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .form button[type="submit"] {
-  background: #7c0932;
+  background: #be4b4b;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1380,5 +1380,5 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .footer .copyrights p a, .footer .copyrights .credits a {
   letter-spacing: 0;
-  color: #7c0932;
+  color: #be4b4b;
 }
