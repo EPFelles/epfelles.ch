@@ -81,6 +81,24 @@ height: 600px;
       height: 100%;
       /* max-height:100%; */
   }
+
+  .main-sponsor-logo {
+    width: 450px;
+    max-height: 300px;
+    height: auto;
+    object-fit: contain;
+  }
+  .other-sponsor-logo {
+    width: 225px;
+    max-height: 150px;
+    height: auto;
+    object-fit: contain;
+  }
+  .sponsor-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+  }
 </style>
 </head>
 
@@ -497,9 +515,12 @@ height: 600px;
         <div class="col-md-11 col-lg-11">
           
           <h3>Main Sponsor</h3>
-              <a href="https://www2.deloitte.com" target="_blank"><img style="max-width:50%" src="img/sponsors/deloitte.png" class="img-responsive" alt="" title="" /></a>
-              <a href="https://www.hitachienergy.com" target="_blank"><img style="max-width:50%" src="img/sponsors/hitachi_energy.png" class="img-responsive" alt="" title="" /></a>
-          <br/><br/<br/><br/><br/<br/>
+          <div class="sponsor-wrapper">
+            <a href="https://www.hitachienergy.com" target="_blank">
+              <img src="img/sponsors/hitachi_energy.svg" class="img-responsive main-sponsor-logo" alt="" title="" />
+            </a>
+          </div>
+          <br/><br/><br/>
         </div>
         <div class="col-md-1 col-lg-1"></div>  
         <!-- 
@@ -539,13 +560,35 @@ height: 600px;
 
         <div class="w-100"></div>
 
-        <div class="col-md-11 col-lg-11">
-
+        <div class="col-md-11 col-lg-11" style="margin-bottom:50px;">
           <h3>Silver Sponsor</h3>
-            <br/>
-            <a href="https://www.janestreet.com" target="_blank"><img style="max-width:25%" src="img/sponsors/jane_street_logo.png" class="img-responsive" alt="" title="" /></a>
-          <br/><br/><br/><br/><br/><br/>
+          <br/>
+          <div class="sponsor-wrapper">
+            <a href="https://www.janestreet.com" target="_blank">
+              <img src="img/sponsors/jane_street_logo.png" class="img-responsive other-sponsor-logo" alt="" title="" style="margin-right:50px;" />
+            </a>
+          </div>
+          <div class="sponsor-wrapper">
+            <a href="https://www.ubs.com" target="_blank">
+              <img src="img/sponsors/ubs.svg" class="img-responsive other-sponsor-logo" alt="" title="" />
+            </a>
+          </div>
+          <br/><br/><br/>
         </div>
+
+        <div class="w-100"></div>
+
+        <div class="col-md-11 col-lg-11">
+          <h3>Bronze Sponsor</h3>
+          <br/>
+          <div class="sponsor-wrapper">
+            <a href="https://www.bcg.com" target="_blank">
+              <img src="img/sponsors/bcg.webp" class="img-responsive other-sponsor-logo" alt="" title="" />
+            </a>
+          </div>
+          <br/><br/><br/>
+        </div>
+
         <div class="w-100"></div>
 
         
